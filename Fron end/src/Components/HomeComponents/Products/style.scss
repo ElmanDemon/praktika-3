@@ -1,0 +1,22 @@
+.products {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .cards {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    div{
+
+        gap: 40px;
+        img {
+      width: 350px;
+      height: 300px;
+    }
+    }
+  }
+}

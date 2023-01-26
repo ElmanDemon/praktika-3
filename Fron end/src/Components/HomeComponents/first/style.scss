@@ -1,0 +1,45 @@
+.esas {
+  background: rgb(59, 76, 235);
+  background: linear-gradient(
+    90deg,
+    rgba(59, 76, 235, 1) 29%,
+    rgba(241, 246, 247, 1) 29%
+  );
+  width: 100%;
+  min-height: 400px;
+  height: 70vh;
+  position: relative;
+  img {
+    height: 545px;
+    position: absolute;
+    left: 18%;
+    bottom: 15px;
+  }
+  div {
+    padding-top: 200px;
+    padding-left: 750px;
+    h1 {
+      width: 350px;
+      margin-top: 15px;
+    }
+    h2 {
+      margin-top: 15px;
+    }
+    p {
+      width: 500px;
+      margin-top: 15px;
+    }
+    button {
+        padding: 12px 50px;
+      margin-top: 15px;
+      display: inline-block;
+      border: 1px solid #384aeb;
+      border-radius: 30px;
+      font-weight: 500;
+      background: #384aeb;
+      color: #fff;
+      transition: all 0.4s ease;
+      cursor: pointer;
+    }
+  }
+}
